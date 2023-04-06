@@ -13,7 +13,7 @@ It includes the [DevCycle React SDK](https://docs.devcycle.com/sdk/client-side-s
 - Delete the `dev-cycle-demo` boolean variable that is auto generated in the feature
 - Create a boolean variable called `should-wink`
 - Set its `Variation On` value to `true` and its `Variation Off` value to `false`
-- From the navigation bar, select the []`View API keys`](https://app.devcycle.com/r/environments) (the key symbol) 
+- From the navigation bar, select the [`View API keys`](https://app.devcycle.com/r/environments) (the key symbol) 
 - Select the relvant project from the dropdown and grab the `client side sdk key` for the development environment
 - Rename `.env.example` to `.env.local` and paste in the key from the previous step
 - Run `yarn start` in your console and wait for Togglebot to appear
