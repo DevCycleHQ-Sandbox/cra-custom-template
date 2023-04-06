@@ -16,7 +16,7 @@ function App() {
           alt="logo"
         />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Change the targetting rule to <b>Variation Off</b> & watch DevCycle in action 😉
         </p>
         <a
           className="App-link"
@@ -24,7 +24,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn DevCycle
+          Learn more about building better software with DevCycle
         </a>
       </header>
     </div>
