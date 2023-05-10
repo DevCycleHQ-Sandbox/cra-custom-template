@@ -1,18 +1,29 @@
 # Getting Started with DevCycle and Create React App
 
-Welcome to the DevCycle template for Create React App! This project was bootstrapped with the TypeScript template of [Create React App](https://github.com/facebook/create-react-app). It includes the [DevCycle React SDK](https://docs.devcycle.com/sdk/client-side-sdks/react) and demonstrates a simple example that uses a boolean variable to determine if the DevCycle logo is winking or not winking.
+Welcome to the DevCycle template for Create React App! 
 
-## Prerequisites
+This project was bootstrapped with the TypeScript template of [Create React App](https://github.com/facebook/create-react-app). 
 
-- Get an account
-- Create a release feature called DevCycle Demo
-- Delete the devcycle-demo boolean variable that is auto generated in the feature
-- Create a boolean variable called should-wink
-- Set its Variation On value to true and its Variation Off value to false
-- From settings, grab your dev client side sdk key
-- Rename .env.example to .env.local and paste in your dev environments client side sdk key
+It includes the [DevCycle React SDK](https://docs.devcycle.com/sdk/client-side-sdks/react) and demonstrates a simple example that uses a boolean variable to determine if DevCycle's Togglebot is winking or not.
 
-## Available Scripts
+## Follow these steps to see if Togglebot is winking:
+
+-  Review the [Getting Started Guide](https://docs.devcycle.com/home/) in our [Official Docs](https://docs.devcycle.com/)
+- [Create a release feature](https://docs.devcycle.com/home/feature-management/getting-started/your-first-feature) called `DevCycle Demo`
+- Delete the `dev-cycle-demo` boolean variable that is auto generated in the feature
+- Create a boolean variable called `should-wink`
+- Set its `Variation On` value to `true` and its `Variation Off` value to `false`
+- From the navigation bar, select the [`View API keys`](https://app.devcycle.com/r/environments) (the key symbol) 
+- Select the relvant project from the dropdown and grab the `client side sdk key` for the development environment
+- Rename `.env.example` to `.env.local` and paste in the key from the previous step
+- Run `yarn start` in your console and wait for Togglebot to appear
+- Follow the instruction on screen to watch DevCycle in action! 
+
+## To learn more about DevCycle, and how it can help you build better software, visit [docs.devcycle.com](https://docs.devcycle.com).
+
+--- 
+
+## Other Available Scripts
 
 In the project directory, you can run:
 
